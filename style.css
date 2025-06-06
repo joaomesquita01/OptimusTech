@@ -1,0 +1,28 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/metricas.css);
+@import url(./styles/vagas.css);
+@import url(./styles/depoimentos.css);
+@import url(./styles/rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #3A404E;
+    --cor-terciaria: #667085;
+    --cor-quartenaria: #8e2424;
+    --cor-quintenaria: #EAECF0;
+    --cor-de-fundo-rodape: #F9FAFB;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-secundaria);
+}

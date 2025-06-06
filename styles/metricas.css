@@ -1,0 +1,28 @@
+.metricas {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5rem 6rem;
+}
+
+.metricas__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 17.5rem;
+}
+
+.metricas__conteudo__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+}
+
+.metricas__conteudo__subtitulo {
+    font-size: 18px;
+    padding: 0.75rem 0 0.5rem 0;
+    color: var(--cor-secundaria);
+}
+
+.metricas__conteudo__texto {
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}

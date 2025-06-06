@@ -1,0 +1,77 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 5rem;
+}
+
+.vagas__descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.background-subtitulo {
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    width: 7.8rem;
+}
+
+.vagas__descricao__subtitulo {
+    font-size: 14px;
+    color: var(--cor-quartenaria);
+    padding: 0.5rem 0.75rem;
+}
+
+.vagas__descricao__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1rem 0 1.25rem;
+}
+
+.vagas__descricao__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+.vagas__imagem {
+    padding: 4rem 2rem;
+}
+
+.vagas__profissao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 48rem;
+}
+
+.vagas__profissao__titulo {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.vagas__profissao__conteudo {
+    border: 1px solid var(--cor-quintenaria);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.vagas__profissao__conteudo__titulo {
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.vagas__profissao__conteudo__descricao {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.vagas__profissao__texto {
+    color: var(--cor-terciaria);
+}
+
+.espacamento {
+    padding: 1.25rem;
+}

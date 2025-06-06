@@ -1,0 +1,47 @@
+.menu__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.125rem 5rem;
+    padding: 0.5rem;
+
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo__titulo {
+    color: var(--cor-secundaria);
+    font-size: 18px;
+}
+
+.nav__lista {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__lista__link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+span {
+    width: 25rem;
+}
+
+.botao__primario {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.botao__secundario {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 0.625rem 1.125rem;
+    border-radius: 12px;
+    margin-left: 0.75rem;
+}

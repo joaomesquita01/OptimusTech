@@ -1,0 +1,23 @@
+.banner {
+    text-align: center;
+    padding: 6rem 20rem;
+}
+
+.banner__subtitulo {
+    color: var(--cor-quartenaria);
+    font-weight: 600;
+}
+
+.banner__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    margin: 24px 0;
+}
+
+.banner__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+    padding: 0.75rem 0;
+}
